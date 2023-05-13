@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  
+  <ItemGroup> 
+    <PackageReference Include="AuraSearch" Version="1.0.0" /> 
+    <PackageReference Include="MediatR" Version="12.0.1" /> 
+    <PackageReference Include="OpenAI" Version="1.7.2" />
+    <PackageReference Include="Picovoice" Version="2.2.0" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Microsoft.ML.Models.BERT\Microsoft.ML.Models.BERT.csproj" />
+  </ItemGroup>
+
+</Project>

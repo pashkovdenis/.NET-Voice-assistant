@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceAssistant", "VoiceAssistant\VoiceAssistant.csproj", "{17D5DBB8-A76F-40A8-ADF8-E54C6AC6E48A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceService", "Services\VoiceService\VoiceService.csproj", "{6886016F-BDCA-4E16-8D13-9D3508FC3176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoiceAssistant.Infrastructure", "Infrastructure\VoiceAssistant.Infrastructure\VoiceAssistant.Infrastructure.csproj", "{157D704E-33D9-4170-A643-901F194D8944}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.ML.Models.BERT", "Microsoft.ML.Models.BERT\Microsoft.ML.Models.BERT.csproj", "{81033817-8603-43D4-BA07-7B73CF540CFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{42463918-EFE1-48A6-920C-D0A41F1A73F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17D5DBB8-A76F-40A8-ADF8-E54C6AC6E48A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D5DBB8-A76F-40A8-ADF8-E54C6AC6E48A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D5DBB8-A76F-40A8-ADF8-E54C6AC6E48A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D5DBB8-A76F-40A8-ADF8-E54C6AC6E48A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6886016F-BDCA-4E16-8D13-9D3508FC3176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6886016F-BDCA-4E16-8D13-9D3508FC3176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6886016F-BDCA-4E16-8D13-9D3508FC3176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6886016F-BDCA-4E16-8D13-9D3508FC3176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157D704E-33D9-4170-A643-901F194D8944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157D704E-33D9-4170-A643-901F194D8944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157D704E-33D9-4170-A643-901F194D8944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157D704E-33D9-4170-A643-901F194D8944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81033817-8603-43D4-BA07-7B73CF540CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81033817-8603-43D4-BA07-7B73CF540CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81033817-8603-43D4-BA07-7B73CF540CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81033817-8603-43D4-BA07-7B73CF540CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81033817-8603-43D4-BA07-7B73CF540CFF} = {42463918-EFE1-48A6-920C-D0A41F1A73F9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D750B307-DE97-4259-9FC5-6455033C2EBD}
+	EndGlobalSection
+EndGlobal
