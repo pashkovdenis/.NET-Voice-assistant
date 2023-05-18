@@ -1,4 +1,4 @@
-# .NET-Voice-assistant
+# .NET-Voice-assistant powered by chat GPT
 .NET Voice assistant implementation using ChatGPT and Cognetive services.
 
 # Config 
